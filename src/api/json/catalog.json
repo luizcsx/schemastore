@@ -10512,5 +10512,6 @@
     "url": "https://githubusercontent.com",
     "fileMatch": ["marketplace.json", "itajuba-marketplace.json"]
     }
-  ]
+  ],
+"version": 1
 }
