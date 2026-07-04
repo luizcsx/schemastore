@@ -10503,16 +10503,11 @@
       "fileMatch": ["**/.slang/server.json", "**/.slang/local/server.json"],
       "url": "https://raw.githubusercontent.com/hudson-trading/slang-server/refs/heads/main/clients/vscode/resources/config.schema.json"
     }
-  ]
-}
-    },
+},
     {
       "name": "Itajubá Plugins Marketplace",
       "description": "Schema de validação para o catálogo de plugins do Bot Itajubá.",
-      "fileMatch": [
-        "marketplace.json",
-        "itajuba-marketplace.json"
-      ],
+      "fileMatch": ["marketplace.json", "itajuba-marketplace.json"],
       "url": "https://raw.githubusercontent.com/luizcsx/schemastore/master/src/schemas/json/itajuba-marketplace.json"
     }
   ]
