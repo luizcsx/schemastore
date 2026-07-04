@@ -10507,7 +10507,7 @@
       "name": "Itajubá Plugins Marketplace",
       "description": "Regras de validação para o catálogo de plugins do Bot Itajubá",
       "fileMatch": ["marketplace.json", "itajuba-marketplace.json"],
-      "url": "https://raw.githubusercontent.com/luizcsx/schemastore/master/src/schemas/json/itajuba-marketplace.json"
+      "url": "https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/itajuba-marketplace.json"
     }
   ]
 }
