@@ -1,5 +1,5 @@
 {
-  "$schema": "https://json-schema.org",
+  "$schema": "http://json-schema.org",
   "title": "Itajubá Plugins Marketplace",
   "type": "object",
   "properties": {
@@ -11,9 +11,10 @@
       "properties": {
         "name": { "type": "string" },
         "email": { "type": "string" }
-      }
+      },
+      "required": ["name"]
     },
-    "homepage": { "type": "string" },
+    "homepage": { "type": "string", "format": "uri" },
     "plugins": {
       "type": "array",
       "items": {
@@ -31,8 +32,10 @@
           },
           "source": { "type": "string" },
           "category": { "type": "string" }
-        }
+        },
+        "required": ["name", "source"]
       }
     }
-  }
+  },
+  "required": ["name", "version", "plugins"]
 }
