@@ -10505,13 +10505,11 @@
     }
   ]
 }
-  },
-  {
     "name": "Itajubá Plugins Marketplace",
     "description": "Schema de validação para o catálogo de plugins do Bot Itajubá.",
     "url": "https://githubusercontent.com",
     "fileMatch": ["marketplace.json", "itajuba-marketplace.json"]
-    }
-  ],
+  }
+],
 "version": 1
 }
