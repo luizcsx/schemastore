@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://json.schemastore.org/itajuba-marketplace.json",
-  "title": "Itajubá Plugins Marketplace",
+  "$id": "https://json.schemastore.org/heloisa-marketplace.json",
+  "title": "Heloísa Assistant Plugins Marketplace",
   "type": "object",
   "properties": {
     "name": { "type": "string" },
